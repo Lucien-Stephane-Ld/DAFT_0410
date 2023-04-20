@@ -4,13 +4,19 @@ select distinct prime_genre
 from lab_18.app_store
 order by prime_genre asc;
 
+# 1.5 How many genres are there?
+select count( distinct prime_genre) as 'Number of Genres'
+from lab_18.app_store
+order by prime_genre asc;
+
+
 # 2. Which is the genre with the most apps rated?
 select prime_genre, user_rating
 from lab_18.app_store
 order by user_rating desc;
 
 # 3. Which is the genre with most apps?
-select count(track_id), prime_genre
+select prime_genre, count(track_id) as Count
 from lab_18.app_store
 group by prime_genre
 order by count(track_id) desc;
@@ -65,7 +71,7 @@ from lab_18.app_store
 order by price desc
 limit 10;
 
--- Determining the price of the top 10 apps.
+-- Determining the price of the top 10 apps.
 select track_name, prime_genre, user_rating, rating_count_tot, price
 from lab_18.app_store
 where user_rating = 5
