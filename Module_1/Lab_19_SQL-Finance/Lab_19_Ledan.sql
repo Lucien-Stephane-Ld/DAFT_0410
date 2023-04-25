@@ -36,6 +36,13 @@ group by business_segment
 order by count(business_segment) desc
 ;
 
+select count(business_segment)
+WHERE business_segment IS NOT NULL
+from olist.closed_deals
+group by business_segment
+order by count(business_segment) desc
+;
+
 -- 6. From the closed_deals table, 
 -- sum the declared_monthly_revenue
 -- for duplicate row values in business_segment
