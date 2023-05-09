@@ -1,0 +1,1604 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20231.23.0310.1044                               -->
+<workbook original-version='18.1' source-build='2023.1.0 (20231.23.0310.1044)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='liquor_store_sales (liquor_store_sales)' inline='true' name='federated.0vqpe3u1fcxseu1fledop0g77j8x' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='liquor_store_sales' name='cloudfile:googledrive-excel-direct.1ho8mvq0t1cr4q14y036e15gwse9'>
+            <connection class='cloudfile:googledrive-excel-direct' cleaning='no' cloudFileExtension='xlsx' cloudFileId='1_49q2OD1T8SFERJxvSsOYZ6cYTj1Z6XZ' cloudFileMetadata_-_folder='1Warjezuh2PPekQOJa173c9OQzbItzCKC' cloudFileName='liquor_store_sales.xlsx' cloudFileProvider='googledrive' cloudFileRequestURL='https://www.googleapis.com/drive/v3/files/1_49q2OD1T8SFERJxvSsOYZ6cYTj1Z6XZ?alt=media' compat='no' dataRefreshTime='' filename='liquor_store_sales.xlsx' interpretationMode='0' server='' server-oauth='' username='stephaneledan@gmail.com' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='cloudfile:googledrive-excel-direct.1ho8mvq0t1cr4q14y036e15gwse9' name='liquor_store_sales' table='[liquor_store_sales$]' type='table'>
+          <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='integer' name='Month' ordinal='1' />
+            <column datatype='string' name='Supplier' ordinal='2' />
+            <column datatype='integer' name='ItemCode' ordinal='3' />
+            <column datatype='string' name='Description' ordinal='4' />
+            <column datatype='string' name='ItemType' ordinal='5' />
+            <column datatype='real' name='RetailSales' ordinal='6' />
+            <column datatype='real' name='RetailTransfers' ordinal='7' />
+            <column datatype='real' name='WarehouseSales' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='cloudfile:googledrive-excel-direct.1ho8mvq0t1cr4q14y036e15gwse9' name='liquor_store_sales' table='[liquor_store_sales$]' type='table'>
+          <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='Year' ordinal='0' />
+            <column datatype='integer' name='Month' ordinal='1' />
+            <column datatype='string' name='Supplier' ordinal='2' />
+            <column datatype='integer' name='ItemCode' ordinal='3' />
+            <column datatype='string' name='Description' ordinal='4' />
+            <column datatype='string' name='ItemType' ordinal='5' />
+            <column datatype='real' name='RetailSales' ordinal='6' />
+            <column datatype='real' name='RetailTransfers' ordinal='7' />
+            <column datatype='real' name='WarehouseSales' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[liquor_store_sales]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:I10001:no:A1:I10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[liquor_store_sales]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[liquor!store!sales_CC01955E100D4474B978834BEFC6B606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[liquor_store_sales]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[liquor!store!sales_CC01955E100D4474B978834BEFC6B606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Supplier</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Supplier]</local-name>
+            <parent-name>[liquor_store_sales]</parent-name>
+            <remote-alias>Supplier</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[liquor!store!sales_CC01955E100D4474B978834BEFC6B606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ItemCode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ItemCode]</local-name>
+            <parent-name>[liquor_store_sales]</parent-name>
+            <remote-alias>ItemCode</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[liquor!store!sales_CC01955E100D4474B978834BEFC6B606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Description</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Description]</local-name>
+            <parent-name>[liquor_store_sales]</parent-name>
+            <remote-alias>Description</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[liquor!store!sales_CC01955E100D4474B978834BEFC6B606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ItemType</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[ItemType]</local-name>
+            <parent-name>[liquor_store_sales]</parent-name>
+            <remote-alias>ItemType</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LFR_RFR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[liquor!store!sales_CC01955E100D4474B978834BEFC6B606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RetailSales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RetailSales]</local-name>
+            <parent-name>[liquor_store_sales]</parent-name>
+            <remote-alias>RetailSales</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[liquor!store!sales_CC01955E100D4474B978834BEFC6B606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RetailTransfers</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RetailTransfers]</local-name>
+            <parent-name>[liquor_store_sales]</parent-name>
+            <remote-alias>RetailTransfers</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[liquor!store!sales_CC01955E100D4474B978834BEFC6B606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WarehouseSales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[WarehouseSales]</local-name>
+            <parent-name>[liquor_store_sales]</parent-name>
+            <remote-alias>WarehouseSales</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[liquor!store!sales_CC01955E100D4474B978834BEFC6B606]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Year_Month' datatype='date' name='[Calculation_913667798647783430]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='date(str([Year]) + &quot;-&quot; + str([Month]) + &quot;-01&quot;)' />
+      </column>
+      <column caption='Item Code' datatype='integer' name='[ItemCode]' role='dimension' type='ordinal' />
+      <column caption='Item Type' datatype='string' name='[ItemType]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+      <column caption='Retail Sales' datatype='real' name='[RetailSales]' role='measure' type='quantitative' />
+      <column caption='Retail Transfers' datatype='real' name='[RetailTransfers]' role='measure' type='quantitative' />
+      <column caption='Warehouse Sales' datatype='real' name='[WarehouseSales]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='liquor_store_sales' datatype='table' name='[__tableau_internal_object_id__].[liquor!store!sales_CC01955E100D4474B978834BEFC6B606]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;France&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <field-sort-info field-sort-order-type='custom-order'>
+        <field-sort-custom-order field='Year' />
+        <field-sort-custom-order field='Calculation_913667798647783430' />
+        <field-sort-custom-order field='Calculation_913667798647406597' />
+        <field-sort-custom-order field='Calculation_913667798647083012' />
+        <field-sort-custom-order field='Calculation_913667798646329347' />
+        <field-sort-custom-order field='Month' />
+        <field-sort-custom-order field='Supplier' />
+        <field-sort-custom-order field='ItemCode' />
+        <field-sort-custom-order field='Description' />
+        <field-sort-custom-order field='ItemType' />
+        <field-sort-custom-order field='RetailSales' />
+        <field-sort-custom-order field='RetailTransfers' />
+        <field-sort-custom-order field='WarehouseSales' />
+        <field-sort-custom-order field='Geometry (generated)' />
+        <field-sort-custom-order field='Latitude (generated)' />
+        <field-sort-custom-order field='Longitude (generated)' />
+        <field-sort-custom-order field=':Measure Names' />
+        <field-sort-custom-order field='Multiple Values' />
+      </field-sort-info>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='liquor_store_sales' id='liquor!store!sales_CC01955E100D4474B978834BEFC6B606'>
+            <properties context=''>
+              <relation connection='cloudfile:googledrive-excel-direct.1ho8mvq0t1cr4q14y036e15gwse9' name='liquor_store_sales' table='[liquor_store_sales$]' type='table'>
+                <columns gridOrigin='A1:I10001:no:A1:I10001:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='Year' ordinal='0' />
+                  <column datatype='integer' name='Month' ordinal='1' />
+                  <column datatype='string' name='Supplier' ordinal='2' />
+                  <column datatype='integer' name='ItemCode' ordinal='3' />
+                  <column datatype='string' name='Description' ordinal='4' />
+                  <column datatype='string' name='ItemType' ordinal='5' />
+                  <column datatype='real' name='RetailSales' ordinal='6' />
+                  <column datatype='real' name='RetailTransfers' ordinal='7' />
+                  <column datatype='real' name='WarehouseSales' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Retail Sales per Year/Quarter
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='liquor_store_sales (liquor_store_sales)' name='federated.0vqpe3u1fcxseu1fledop0g77j8x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vqpe3u1fcxseu1fledop0g77j8x'>
+            <column caption='Year_Month' datatype='date' name='[Calculation_913667798647783430]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='date(str([Year]) + &quot;-&quot; + str([Month]) + &quot;-01&quot;)' />
+            </column>
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column caption='Retail Sales' datatype='real' name='[RetailSales]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Quarter' name='[qr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[RetailSales]' derivation='Sum' name='[sum:RetailSales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Year' name='[yr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[sum:RetailSales:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>([federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok] / [federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok])</cols>
+      </table>
+      <simple-id uuid='{96A8AF2A-E96D-4291-AF37-A84ADA090278}' />
+    </worksheet>
+    <worksheet name='Sheet 10'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Warehouse Sales by Year/Quarter</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='liquor_store_sales (liquor_store_sales)' name='federated.0vqpe3u1fcxseu1fledop0g77j8x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vqpe3u1fcxseu1fledop0g77j8x'>
+            <column caption='Year_Month' datatype='date' name='[Calculation_913667798647783430]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='date(str([Year]) + &quot;-&quot; + str([Month]) + &quot;-01&quot;)' />
+            </column>
+            <column caption='Item Type' datatype='string' name='[ItemType]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column caption='Warehouse Sales' datatype='real' name='[WarehouseSales]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[WarehouseSales]' derivation='Avg' name='[avg:WarehouseSales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ItemType]' derivation='None' name='[none:ItemType:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Quarter' name='[qr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Year' name='[yr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:ItemType:nk]' />
+              <groupfilter function='member' level='[none:ItemType:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]' value='98' />
+            <format attr='width' value='207' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok]' value='40' />
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok]' value='64' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[avg:WarehouseSales:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok] / [federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{64D3244D-2FF9-4200-9A31-B2588EA8346D}' />
+    </worksheet>
+    <worksheet name='Sheet 11'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Warehouse Sales by Year/Quarter &amp; Item Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='liquor_store_sales (liquor_store_sales)' name='federated.0vqpe3u1fcxseu1fledop0g77j8x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vqpe3u1fcxseu1fledop0g77j8x'>
+            <column caption='Year_Month' datatype='date' name='[Calculation_913667798647783430]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='date(str([Year]) + &quot;-&quot; + str([Month]) + &quot;-01&quot;)' />
+            </column>
+            <column caption='Item Type' datatype='string' name='[ItemType]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column caption='Warehouse Sales' datatype='real' name='[WarehouseSales]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[ItemType]' derivation='None' name='[none:ItemType:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Quarter' name='[qr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[WarehouseSales]' derivation='Sum' name='[sum:WarehouseSales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Year' name='[yr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:ItemType:nk]' />
+              <groupfilter function='member' level='[none:ItemType:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]' value='73' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok]' value='40' />
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok]' value='64' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[sum:WarehouseSales:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok] / [federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok])</rows>
+        <cols>[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]</cols>
+      </table>
+      <simple-id uuid='{76DCFF7A-178C-44CC-A5CD-5DC6AACB03AA}' />
+    </worksheet>
+    <worksheet name='Sheet 12'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Avg Warehouse Sales by Year/Quarter and Item Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='liquor_store_sales (liquor_store_sales)' name='federated.0vqpe3u1fcxseu1fledop0g77j8x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vqpe3u1fcxseu1fledop0g77j8x'>
+            <column caption='Year_Month' datatype='date' name='[Calculation_913667798647783430]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='date(str([Year]) + &quot;-&quot; + str([Month]) + &quot;-01&quot;)' />
+            </column>
+            <column caption='Item Type' datatype='string' name='[ItemType]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column caption='Warehouse Sales' datatype='real' name='[WarehouseSales]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[WarehouseSales]' derivation='Avg' name='[avg:WarehouseSales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ItemType]' derivation='None' name='[none:ItemType:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Quarter' name='[qr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Year' name='[yr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:ItemType:nk]' />
+              <groupfilter function='member' level='[none:ItemType:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]' value='57' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok]' value='40' />
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok]' value='64' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[avg:WarehouseSales:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok] / [federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok])</rows>
+        <cols>[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]</cols>
+      </table>
+      <simple-id uuid='{7EDD49FC-A7BF-4F56-B602-0B5B25C6120F}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Retail Sales by Year/Quarter</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='liquor_store_sales (liquor_store_sales)' name='federated.0vqpe3u1fcxseu1fledop0g77j8x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vqpe3u1fcxseu1fledop0g77j8x'>
+            <column caption='Year_Month' datatype='date' name='[Calculation_913667798647783430]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='date(str([Year]) + &quot;-&quot; + str([Month]) + &quot;-01&quot;)' />
+            </column>
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column caption='Retail Sales' datatype='real' name='[RetailSales]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[RetailSales]' derivation='Avg' name='[avg:RetailSales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Quarter' name='[qr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Year' name='[yr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[avg:RetailSales:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>([federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok] / [federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok])</cols>
+      </table>
+      <simple-id uuid='{DCB10F74-1CBF-4F9D-846B-8AB083B6F4FC}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Retail Sales by Year/Month and Item Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='liquor_store_sales (liquor_store_sales)' name='federated.0vqpe3u1fcxseu1fledop0g77j8x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vqpe3u1fcxseu1fledop0g77j8x'>
+            <column caption='Year_Month' datatype='date' name='[Calculation_913667798647783430]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='date(str([Year]) + &quot;-&quot; + str([Month]) + &quot;-01&quot;)' />
+            </column>
+            <column caption='Item Type' datatype='string' name='[ItemType]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column caption='Retail Sales' datatype='real' name='[RetailSales]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[ItemType]' derivation='None' name='[none:ItemType:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Quarter' name='[qr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[RetailSales]' derivation='Sum' name='[sum:RetailSales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Year' name='[yr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:ItemType:nk]' />
+              <groupfilter function='member' level='[none:ItemType:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]' value='71' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok]' value='56' />
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok]' value='44' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[sum:RetailSales:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok] / [federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok])</rows>
+        <cols>[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]</cols>
+      </table>
+      <simple-id uuid='{3FE316D9-41BF-40FA-A69C-EB135888964A}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Retail Sales by Year/Month and Item Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='liquor_store_sales (liquor_store_sales)' name='federated.0vqpe3u1fcxseu1fledop0g77j8x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vqpe3u1fcxseu1fledop0g77j8x'>
+            <column caption='Year_Month' datatype='date' name='[Calculation_913667798647783430]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='date(str([Year]) + &quot;-&quot; + str([Month]) + &quot;-01&quot;)' />
+            </column>
+            <column caption='Item Type' datatype='string' name='[ItemType]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column caption='Retail Sales' datatype='real' name='[RetailSales]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[RetailSales]' derivation='Avg' name='[avg:RetailSales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ItemType]' derivation='None' name='[none:ItemType:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Quarter' name='[qr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Year' name='[yr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:ItemType:nk]' />
+              <groupfilter function='member' level='[none:ItemType:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]' value='71' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok]' value='56' />
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok]' value='44' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[avg:RetailSales:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok] / [federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok])</rows>
+        <cols>[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]</cols>
+      </table>
+      <simple-id uuid='{D3F52A1F-83D1-4D8B-AA28-05487062CFFF}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Retail Transfers by Year/Quarter</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='liquor_store_sales (liquor_store_sales)' name='federated.0vqpe3u1fcxseu1fledop0g77j8x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vqpe3u1fcxseu1fledop0g77j8x'>
+            <column caption='Year_Month' datatype='date' name='[Calculation_913667798647783430]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='date(str([Year]) + &quot;-&quot; + str([Month]) + &quot;-01&quot;)' />
+            </column>
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column caption='Retail Transfers' datatype='real' name='[RetailTransfers]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Quarter' name='[qr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[RetailTransfers]' derivation='Sum' name='[sum:RetailTransfers:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Year' name='[yr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='213' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[sum:RetailTransfers:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok] / [federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{E07FD961-080A-493B-9DFD-1F7F01BB5DEE}' />
+    </worksheet>
+    <worksheet name='Sheet 6'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Avg Retail Transfers by Year/Quarter</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='liquor_store_sales (liquor_store_sales)' name='federated.0vqpe3u1fcxseu1fledop0g77j8x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vqpe3u1fcxseu1fledop0g77j8x'>
+            <column caption='Year_Month' datatype='date' name='[Calculation_913667798647783430]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='date(str([Year]) + &quot;-&quot; + str([Month]) + &quot;-01&quot;)' />
+            </column>
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column caption='Retail Transfers' datatype='real' name='[RetailTransfers]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[RetailTransfers]' derivation='Avg' name='[avg:RetailTransfers:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Quarter' name='[qr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Year' name='[yr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' value='222' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[avg:RetailTransfers:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok] / [federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{5363F99C-2CE9-4462-8947-07F2457DE7A7}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Retail Transfers by Year/Quarter and Item Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='liquor_store_sales (liquor_store_sales)' name='federated.0vqpe3u1fcxseu1fledop0g77j8x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vqpe3u1fcxseu1fledop0g77j8x'>
+            <column caption='Year_Month' datatype='date' name='[Calculation_913667798647783430]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='date(str([Year]) + &quot;-&quot; + str([Month]) + &quot;-01&quot;)' />
+            </column>
+            <column caption='Item Type' datatype='string' name='[ItemType]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column caption='Retail Transfers' datatype='real' name='[RetailTransfers]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[ItemType]' derivation='None' name='[none:ItemType:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Quarter' name='[qr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[RetailTransfers]' derivation='Sum' name='[sum:RetailTransfers:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Year' name='[yr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:ItemType:nk]' />
+              <groupfilter function='member' level='[none:ItemType:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]' value='98' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok]' value='40' />
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok]' value='64' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[sum:RetailTransfers:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok] / [federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok])</rows>
+        <cols>[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]</cols>
+      </table>
+      <simple-id uuid='{715D2FB8-0740-487B-AA28-CA57403BBC70}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Transfers by Year/Quarter and Item Type</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='liquor_store_sales (liquor_store_sales)' name='federated.0vqpe3u1fcxseu1fledop0g77j8x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vqpe3u1fcxseu1fledop0g77j8x'>
+            <column caption='Year_Month' datatype='date' name='[Calculation_913667798647783430]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='date(str([Year]) + &quot;-&quot; + str([Month]) + &quot;-01&quot;)' />
+            </column>
+            <column caption='Item Type' datatype='string' name='[ItemType]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column caption='Retail Transfers' datatype='real' name='[RetailTransfers]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[RetailTransfers]' derivation='Avg' name='[avg:RetailTransfers:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[ItemType]' derivation='None' name='[none:ItemType:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Quarter' name='[qr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Year' name='[yr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:ItemType:nk]' />
+              <groupfilter function='member' level='[none:ItemType:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]' value='98' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok]' value='40' />
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok]' value='64' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[avg:RetailTransfers:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok] / [federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok])</rows>
+        <cols>[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]</cols>
+      </table>
+      <simple-id uuid='{D6A04887-A973-4E17-9A9B-FB1AA0D4A663}' />
+    </worksheet>
+    <worksheet name='Sheet 9'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Total Warehouse Sales by Year/Quarter</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='liquor_store_sales (liquor_store_sales)' name='federated.0vqpe3u1fcxseu1fledop0g77j8x' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0vqpe3u1fcxseu1fledop0g77j8x'>
+            <column caption='Year_Month' datatype='date' name='[Calculation_913667798647783430]' role='dimension' type='ordinal'>
+              <calculation class='tableau' formula='date(str([Year]) + &quot;-&quot; + str([Month]) + &quot;-01&quot;)' />
+            </column>
+            <column caption='Item Type' datatype='string' name='[ItemType]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Month]' role='dimension' type='quantitative' />
+            <column caption='Warehouse Sales' datatype='real' name='[WarehouseSales]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Year]' role='dimension' type='quantitative' />
+            <column-instance column='[ItemType]' derivation='None' name='[none:ItemType:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Quarter' name='[qr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[WarehouseSales]' derivation='Sum' name='[sum:WarehouseSales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_913667798647783430]' derivation='Year' name='[yr:Calculation_913667798647783430:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:ItemType:nk]' />
+              <groupfilter function='member' level='[none:ItemType:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[none:ItemType:nk]' value='98' />
+            <format attr='width' value='188' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok]' value='40' />
+            <format attr='width' field='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok]' value='64' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0vqpe3u1fcxseu1fledop0g77j8x].[sum:WarehouseSales:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0vqpe3u1fcxseu1fledop0g77j8x].[yr:Calculation_913667798647783430:ok] / [federated.0vqpe3u1fcxseu1fledop0g77j8x].[qr:Calculation_913667798647783430:ok])</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{350B199F-DDA3-49C8-9A66-1A271AC15542}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='24557' id='3' name='Sheet 1' w='15565' x='468' y='25443'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24558' id='5' name='Sheet 2' w='15565' x='468' y='885'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24558' id='6' name='Sheet 3' w='48624' x='16033' y='885'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24557' id='7' name='Sheet 4' w='48624' x='16033' y='25443'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24558' id='8' name='Sheet 5' w='36747' x='468' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24557' id='9' name='Sheet 6' w='22996' x='468' y='74558'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24557' id='10' name='Sheet 7' w='34875' x='64657' y='885'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24558' id='11' name='Sheet 8' w='34875' x='64657' y='25442'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24558' id='12' name='Sheet 9' w='21591' x='37215' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24558' id='13' name='Sheet 10' w='40726' x='58806' y='50000'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24557' id='14' name='Sheet 11' w='41603' x='23464' y='74558'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='24557' id='15' name='Sheet 12' w='34465' x='65067' y='74558'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='2400' minheight='2400' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='19' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98230' id='18' param='vert' type-v2='layout-flow' w='99064' x='468' y='885'>
+                <zone fixed-size='189' h='24558' id='5' is-fixed='true' name='Sheet 2' w='15565' x='468' y='885'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='189' h='24558' id='6' is-fixed='true' name='Sheet 3' w='48624' x='16033' y='885'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='189' h='24557' id='10' is-fixed='true' name='Sheet 7' w='34875' x='64657' y='885'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='188' h='24558' id='11' is-fixed='true' name='Sheet 8' w='34875' x='64657' y='25442'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='188' h='24557' id='3' is-fixed='true' name='Sheet 1' w='15565' x='468' y='25443'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='188' h='24557' id='7' is-fixed='true' name='Sheet 4' w='48624' x='16033' y='25443'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='188' h='24558' id='8' is-fixed='true' name='Sheet 5' w='36747' x='468' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='188' h='24558' id='12' is-fixed='true' name='Sheet 9' w='21591' x='37215' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='188' h='24558' id='13' is-fixed='true' name='Sheet 10' w='40726' x='58806' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='189' h='24557' id='9' is-fixed='true' name='Sheet 6' w='22996' x='468' y='74558'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='189' h='24557' id='14' is-fixed='true' name='Sheet 11' w='41603' x='23464' y='74558'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='189' h='24557' id='15' is-fixed='true' name='Sheet 12' w='34465' x='65067' y='74558'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{74DD8381-F50D-4E1B-9771-3F52B5200C08}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{48FD7AD7-732F-4CBC-8E7A-6C66EE7EE046}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E2EFD26E-1741-4DDC-B40C-FC1C9FBB1C6B}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9A1E8E7A-2F60-492B-8D74-1D521248023E}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{855B7993-5C7E-4E26-803D-5BCB4A5748E2}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D2B20FDC-9796-4629-8565-268AC5166DE2}' />
+    </window>
+    <window class='worksheet' name='Sheet 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{55299B4E-3D2D-4060-9890-522810F7E08E}' />
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C6D0B01E-65C0-45AB-B6BC-A2BD003018F8}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{96F4A059-59A6-47A3-8F0B-3897A0041B3F}' />
+    </window>
+    <window class='worksheet' name='Sheet 9'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{ACF5159B-7CC7-49F3-B439-336D0A0E16E7}' />
+    </window>
+    <window class='worksheet' name='Sheet 10'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9035EE3A-97B4-4224-A248-06CD605D67B0}' />
+    </window>
+    <window class='worksheet' name='Sheet 11'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E8478721-2B84-4BEE-AFFC-D4B7A46DFBE7}' />
+    </window>
+    <window class='worksheet' name='Sheet 12'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{85BA844D-2441-4E5D-848A-BD161F6E6FE9}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 1' />
+        <viewpoint name='Sheet 10' />
+        <viewpoint name='Sheet 11' />
+        <viewpoint name='Sheet 12' />
+        <viewpoint name='Sheet 2' />
+        <viewpoint name='Sheet 3' />
+        <viewpoint name='Sheet 4' />
+        <viewpoint name='Sheet 5' />
+        <viewpoint name='Sheet 6' />
+        <viewpoint name='Sheet 7' />
+        <viewpoint name='Sheet 8' />
+        <viewpoint name='Sheet 9' />
+      </viewpoints>
+      <active id='5' />
+      <simple-id uuid='{D332FE74-F506-46A2-8B5A-F963EC870502}' />
+    </window>
+  </windows>
+</workbook>
