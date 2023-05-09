@@ -16,5 +16,6 @@ SELECT
 	( titleauthor.title_id, titles.pub_id, 
 	  publishers.pub_id, publishers.pub_name
       authors.au_id
+      )
       
 create temporary table pub

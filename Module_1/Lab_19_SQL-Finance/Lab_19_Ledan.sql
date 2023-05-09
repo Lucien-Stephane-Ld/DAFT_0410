@@ -1,4 +1,6 @@
 
+use olist;
+
 -- 1. From the order_items table, find the price of the highest priced order and lowest price order.
 
 select max(price) as 'Max price', min(price) as 'Min price' from olist.order_items;
@@ -29,16 +31,9 @@ limit 10
 
 -- 5. From the closed_deals table, how many distinct business segments are there (not including null)?
 
-select business_segment as 'Business Segments', count(business_segment)
+select business_segment, count(distinct business_segment) as 'Business Segments'
 FROM olist.closed_deals
 WHERE business_segment IS NOT NULL
-group by business_segment
-order by count(business_segment) desc
-;
-
-select count(business_segment)
-WHERE business_segment IS NOT NULL
-from olist.closed_deals
 group by business_segment
 order by count(business_segment) desc
 ;
@@ -56,7 +51,7 @@ order by sum(declared_monthly_revenue) desc
 
 -- 7. From the order_reviews table,    find the total number of     distinct review score     values.
 
-select distinct count(review_id)
+select distinct count(review_score)
 from olist.order_reviews
 ;
 
@@ -80,6 +75,5 @@ order by review_score desc;
 select review_score,  count(review_id)
 from olist.order_reviews
 group by review_score
-order by count(review_id) desc
-limit 10
+order by review_score desc
 ;
