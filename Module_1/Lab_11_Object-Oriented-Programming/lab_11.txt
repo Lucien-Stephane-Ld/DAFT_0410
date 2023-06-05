@@ -1,0 +1,18 @@
+LAB 11
+
+Solutions:
+
+Kata 1:
+class List(object):
+    def remove_(self, integer_list, values_list):
+        return [i for i in integer_list if i not in values_list]
+Kata 2:
+class List(object):
+    def count_spec_digits(self, integers_list, digits_list):
+        s = "".join(str(i) for i in integers_list)
+        return [(dig, s.count(str(dig))) for dig in digits_list]
+Kata 3:
+from collections import Counter
+
+def ordered_count(input):
+    return list(Counter(input).items())
