@@ -60,3 +60,10 @@ The following deliverables should be pushed to your Github repo for this chapter
 Note: no need of slides as you can use story instead.
 
 Data: https://drive.google.com/drive/u/2/folders/1k5eP_8YuJDbnQ72uX37n53Oq_22NnY9G
+
+
+
+
+gh repo clone Lucien-Stephane-Ld/project-06-data-description-prediction
+
+git repo clone Lucien-Stephane-Ld/project-06-data-description-prediction
